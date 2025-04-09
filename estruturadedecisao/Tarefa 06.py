@@ -1,10 +1,12 @@
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
-numero3 = float(input("Digite o terceiro número: "))
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
 
-if numero1 > numero2 and numero1 > numero3:
-    print(f"O maior número é: {numero1}.")
-elif numero2 > numero1 and numero2 > numero3:
-    print(f"O maior número é: {numero2}.")
+if (n1 == n2) and (n1 == n3):
+    print(f"Os Números são iguais: ")
+elif (n1 > n2) and (n1 > n3):
+    print(f"O maior número é: {n1}.")
+elif n2 > n1 and n2 > n3:
+    print(f"O maior número é: {n2}.")
 else:
-    print(f"O maior número é {numero3}")
+    print(f"O maior número é {n3}")
