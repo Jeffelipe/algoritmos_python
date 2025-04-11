@@ -1,8 +1,10 @@
-while True:
-    nome_usuario = input("Digite o nome de usuário: ")
-    senha = input("Digite a senha: ")
+usuario = senha =""
 
-    if senha == nome_usuario:
+while (usuario == senha):
+    usuario = input("Informe o usuário: ")
+    senha = input("Informe a senha: ")
+
+    if (usuario == senha):
         print("Senha inválida, tente novamente!")
     else:
         print("Login aceito!")
